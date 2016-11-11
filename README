@@ -1,0 +1,6 @@
+If have the error:
+ "could not find a Qt installation of '' "
+then 
+  QT_SELECT=5 emerge fbreader 
+or
+  ln -s /etc/xdg/qtchooser/qt5.conf /etc/xdg/qtchooser/default.conf
